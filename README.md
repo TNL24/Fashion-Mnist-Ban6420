@@ -1,60 +1,32 @@
-Utilising Survey Data to Analyse Spending and Income 
-Summary of
-The goal of this project is to create a survey instrument that will gather information from participants so that their income and spending patterns may be examined. With an emphasis on spending areas like utilities, entertainment, school fees, shopping, and healthcare, the tool will be used to collect user information such as age, gender, total income, and expenses. The gathered data will be analysed with Python, saved in a MongoDB database, and shown using Jupyter notebooks to provide insights. Furthermore, Amazon Web Services (AWS) will host the Flask application that houses the survey tool.
-Components
-1. Web Development with Flask
-Simple webpage created using Flask to collect user data.
-2. Data Storage with MongoDB
-User details stored in MongoDB, including Age, Gender, Total Income, and Expenses.
-Checkboxes provided for expense categories with corresponding textboxes to insert amounts spent.
-3. Data Processing with Python
-Python class named "User" created to handle user data.
-Data collected from MongoDB looped through and stored in a CSV file.
-4. Data Visualization
-Jupyter notebook utilized for data visualization.
-Visualizations include:
-Ages with the highest income.
-Gender distribution across spending categories.
-Charts exported for use in a PowerPoint presentation for client use.
-5. Deployment on AWS
-Flask application hosted on Amazon Web Services (AWS) for accessibility.
-Instructions
-Clone the repository:
+Utilising TensorFlow for Fashion MNIST Image Classification
 
-bash
-Copy code
-git clone https://github.com/yourusername/survey-tool.git
-Set up MongoDB:
+In order to identify photos from the Fashion MNIST dataset, a Convolutional Neural Network (CNN) model is built and trained using TensorFlow and Keras, as demonstrated by this Python script.
 
-Install MongoDB on your system.
-Configure MongoDB connection settings in the Flask application.
-Install dependencies:
+Prerequisites:
 
-Copy code
-pip install -r requirements.txt
-Run the Flask application:
+The TensorFlow website (https://www.tensorflow.org)
+One can access Keras at https://keras.io and Matplotlib at https://matplotlib.org.
+guidelines
 
-Copy code
-python app.py
-Access the survey tool in your web browser at http://localhost:5000.
+Setting up: Use pip to install the necessary libraries.
 
-Collect user data and check MongoDB for stored information.
+Install keras matplotlib using bash pip. Tensorflow
+Code should be used carefully.
+Implementing the Script:
 
-Run the Python script to process data:
+Save the code as fashion_mnist_cnn.py, for example, or another Python file.
 
-Copy code
-python data_processing.py
-Access the Jupyter notebook for data visualization:
+Conveniently, it is advised to make the script executable.
 
-Copy code
-jupyter notebook
-Open the notebook and run cells to generate visualizations.
+Toggle between fashion_mnist_cnn.py and bash.
+Code should be used carefully.
+Using the command line, run the script:
 
-Deploy the Flask application on AWS for production use.
+Style_mnist_cnn.py is a Bash Python script.
+Code should be used carefully.
+Deciphering Code:
 
-Technologies Used
-Flask
-MongoDB
-Python
-Jupyter Notebook
-Amazon Web Services (AWS)
+The Encoding of Shebang
+
+#!/usr/bin/python-environment The Python interpreter that will be used to run the script is indicated by this line.
+# UTF-8 coding: The character is indicated in this line.
